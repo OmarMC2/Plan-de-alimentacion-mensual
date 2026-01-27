@@ -1,11 +1,112 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Nav from "../components/Nav.astro";
+import Section from "../components/Section.astro";
+import MealPlanCalendar from "../components/MealPlanCalendar.astro";
+import RecipeCard from "../components/RecipeCard.astro";
+import GridCard from "../components/GridCard.astro";
+import Footer from "../components/Footer.astro";
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import { mealPlan } from "../data/planData";
 ---
 
-<Layout>
-	<Welcome />
+<Layout title={mealPlan.nombre}>
+  <Header subtitle={mealPlan.nombre} title={mealPlan.nombre} />
+
+  <main>
+    <Section title="Objetivos" id="objetivos">
+      <ul>
+        {mealPlan.objetivos.map((objetivo) => <li>{objetivo}</li>)}
+      </ul>
+    </Section>
+    <Section title="Reglas de Oro">
+      <dl class="rules-list">
+        {
+          Object.entries(mealPlan.reglas_oro).map(([key, value]) => (
+            <>
+              <dt>
+                <strong>{key.replace(/_/g, " ")}:</strong>
+              </dt>
+              <dd>{value}</dd>
+            </>
+          ))
+        }
+      </dl>
+    </Section>
+
+    <Section title="Calendario del Plan" id="calendario">
+      <MealPlanCalendar />
+    </Section>
+
+    <Section title="Recetario Maestro" id="recetas">
+      {
+        mealPlan.recetario_maestro.map((item) => (
+          <RecipeCard
+            recipe={{
+              name: item.nombre,
+              portions: [
+                `<strong>Tú:</strong> ${item.porciones.tú}`,
+                `<strong>Pareja:</strong> ${item.porciones.pareja}`,
+              ],
+              notes: item.instrucciones,
+            }}
+          />
+        ))
+      }
+    </Section>
+
+    <Section title="Smoothies" id="smoothies">
+      <div class="grid">
+        {
+          mealPlan.smoothies.map((smoothie) => (
+            <GridCard>
+              <span slot="title" class="badge">
+                {smoothie.nombre}
+              </span>
+              <span slot="content">{smoothie.ingredientes}</span>
+            </GridCard>
+          ))
+        }
+      </div>
+    </Section>
+
+    <Section title="Snacks y Postres" id="snacks">
+      <div class="grid">
+        {
+          mealPlan.snacks_y_postres.map((snack) => (
+            <GridCard>
+              <strong slot="title">{snack.nombre}</strong>
+              <span slot="content">{snack.receta}</span>
+            </GridCard>
+          ))
+        }
+      </div>
+    </Section>
+  </main>
+
+  <Footer text="Plan de Alimentación" />
 </Layout>
+
+<style>
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  @media (max-width: 600px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .rules-list dt {
+    font-weight: bold;
+    margin-top: 1em;
+  }
+
+  .rules-list dd {
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+  }
+</style>

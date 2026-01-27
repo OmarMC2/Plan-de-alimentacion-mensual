@@ -1,0 +1,27 @@
+:root {
+	--primary: #1a5276;
+	--secondary: #1d8348;
+	--accent: #d35400;
+	--light-bg: #f7f9f9;
+	--white: #ffffff;
+	--text: #2c3e50;
+
+	/* New semantic colors for MealPlanCalendar */
+	--color-primary: var(--primary);
+	--color-secondary: var(--secondary);
+	--color-accent: var(--accent);
+	--color-text: var(--text);
+	--color-background-light: var(--light-bg);
+	--color-card-background: var(--white);
+	--color-highlight: var(--accent);
+	--color-border: #e0e0e0; /* A light grey for borders */
+}
+body {
+	font-family: "Segoe UI", Arial, sans-serif;
+	line-height: 1.6;
+	color: var(--text);
+	background: var(--light-bg);
+	margin: 0;
+}
+
+@import url('./fonts.css');
