@@ -14,150 +14,150 @@
         "calendario_28_dias": {
             "semana_1": {
                 "lunes": {
-                    "desayuno": "Hotcakes de avena y cacahuate",
-                    "comida": "Tilapia empapelada con arroz",
-                    "cena": "Quesadillas con panela"
+                    "desayuno": "Huevos estrellados con tostadas de aguacate",
+                    "comida": "Costilla de res asada y /arroz con lentejas/arroz con ensalada/nopales con tortilla y frijoles",
+                    "cena": "Quesadillas con panela y frijoles"
                 },
                 "martes": {
-                    "desayuno": "Huevos estrellados con papaya",
-                    "comida": "Bistec a la plancha con lentejas",
-                    "cena": "Ensalada de pollo deshebrado"
+                    "desayuno": "Avena con chía, leche y fruta",
+                    "comida": "Fajitas de res, con pimientos y tortilla",
+                    "cena": "Yogurt con fruta"
                 },
                 "miercoles": {
-                    "desayuno": "Avena con plátano y chía",
-                    "comida": "Pollo empanizado con frijoles",
-                    "cena": "Omelette con panela y guacamole"
+                    "desayuno": "Hotcakes de avena con plátano y un vaso de leche",
+                    "comida": "Salmón empapelado con /arroz con ensalada/verduras",
+                    "cena": "Omelette de queso panela con complemento y tostadas de aguacate"
                 },
                 "jueves": {
-                    "desayuno": "Hotcakes de plátano con avena",
-                    "comida": "Ensalada de pollo a la mostaza",
-                    "cena": "Omelette de claras con champiñones"
+                    "desayuno": "Batido de plátano con avena y crema de cacahuate",
+                    "comida": "Res al cacahuate",
+                    "cena": "Ensalada de atún/ tostadas/ garbanzos/ aguacate "
                 },
                 "viernes": {
-                    "desayuno": "Huevos revueltos con espinaca",
-                    "comida": "Carne de res asada con aguacate",
-                    "cena": "Ensalada de atún con pepino"
+                    "desayuno": "Huevos revueltos con complemento y fruta",
+                    "comida": "Ensalada de pollo a la mostaza/arroz",
+                    "cena": "Sopa de lentejas"
                 },
                 "sabado": {
                     "desayuno": "Chilaquiles con huevo estrellado",
-                    "comida": "Cerdo en adobo con arroz",
-                    "cena": "Ensalada de quinoa con pollo"
+                    "comida": "Cerdo en adobo con arroz / tortillas",
+                    "cena": "Ensalada de quinoa con pollo y pan tostado"
                 },
                 "domingo": {
-                    "desayuno": "Batido de avena y cacahuate",
-                    "comida": "Bistec en salsa roja con arroz",
-                    "cena": "Sopa de lentejas con espinaca"
+                    "desayuno": "Omelette de queso, panela y complemento",
+                    "comida": "Suadero",
+                    "cena": "Pollo al chipotle con espinacas"
                 }
             },
             "semana_2": {
                 "lunes": {
-                    "desayuno": "Tostadas de aguacate con huevo",
-                    "comida": "Guisado de bistec con papas",
-                    "cena": "Pechuga al chipotle con espinaca"
+                    "desayuno": "Huevos estrellados con tostadas de aguacate",
+                    "comida": "Guisado de bistec con papas/ pepino, jitomate",
+                    "cena": "Quesadillas con panela y frijoles"
                 },
                 "martes": {
-                    "desayuno": "Avena cocida con manzana",
-                    "comida": "Carne molida con quinoa y brócoli",
-                    "cena": "Ensalada de atún con garbanzos"
+                    "desayuno": "Avena con chía, leche y fruta",
+                    "comida": "Tinga de res con col y tostadas",
+                    "cena": "Yogurt con fruta"
                 },
                 "miercoles": {
-                    "desayuno": "Tostadas de aguacate con huevo",
-                    "comida": "Tacos de bistec con nopales",
-                    "cena": "Yogur griego con frutos rojos"
+                    "desayuno": "Hotcakes de avena con plátano y un vaso de leche",
+                    "comida": "Tilapia empanizada /puré de camote",
+                    "cena": "Omelette de queso panela con complemento y tostadas de aguacate"
                 },
                 "jueves": {
-                    "desayuno": "Omelette de espinaca y panela",
-                    "comida": "Salmón al horno con verduras",
-                    "cena": "Tostadas de ceviche de atún"
+                    "desayuno": "Batido de plátano con avena y crema de cacahuate",
+                    "comida": "Bistec en salsa verde/arroz",
+                    "cena": "Ensalada de atún/ tostadas/ garbanzos/ aguacate "
                 },
                 "viernes": {
-                    "desayuno": "Claras con champiñones",
-                    "comida": "Enchiladas de pollo verdes",
-                    "cena": "Atún con aguacate en tostadas"
+                    "desayuno": "Huevos revueltos con complemento y fruta",
+                    "comida": "Pollo empanizado con frijoles y lechuga mixta",
+                    "cena": "Sopa de lentejas"
                 },
                 "sabado": {
-                    "desayuno": "Avena con chía y manzana",
-                    "comida": "Res asada con nopales",
-                    "cena": "Sopa de garbanzos con nopales"
+                    "desayuno": "Chilaquiles con huevo estrellado",
+                    "comida": "Enchiladas de pollo",
+                    "cena": "Ensalada de quinoa con pollo y pan tostado"
                 },
                 "domingo": {
-                    "desayuno": "Hotcakes de avena y cacahuate",
-                    "comida": "Pescado empanizado (Air Fryer)",
-                    "cena": "Quesadillas con champiñones"
+                    "desayuno": "Omelette de queso, panela y complemento",
+                    "comida": "Carne molida con quinoa y brócoli",
+                    "cena": "Pollo al chipotle con espinacas"
                 }
             },
             "semana_3": {
                 "lunes": {
-                    "desayuno": "Huevos estrellados con tortillas",
-                    "comida": "Fajitas de res con pimientos",
-                    "cena": "Ensalada de pollo deshebrado"
+                    "desayuno": "Huevos estrellados con tostadas de aguacate",
+                    "comida": "Costilla de res asada y /arroz con lentejas/arroz con ensalada/nopales con tortilla y frijoles",
+                    "cena": "Quesadillas con panela y frijoles"
                 },
                 "martes": {
-                    "desayuno": "Avena con plátano y chía",
-                    "comida": "Tinga de res con col",
-                    "cena": "Omelette con panela"
+                    "desayuno": "Avena con chía, leche y fruta",
+                    "comida": "Fajitas de res, con pimientos y tortilla",
+                    "cena": "Yogurt con fruta"
                 },
                 "miercoles": {
-                    "desayuno": "Hotcakes de plátano con avena",
-                    "comida": "Res al cacahuate con verduras",
-                    "cena": "Omelette de claras"
+                    "desayuno": "Hotcakes de avena con plátano y un vaso de leche",
+                    "comida": "Salmón empapelado con /arroz con ensalada/verduras",
+                    "cena": "Omelette de queso panela con complemento y tostadas de aguacate"
                 },
                 "jueves": {
-                    "desayuno": "Huevos con espinaca y tomate",
-                    "comida": "Cochinita pibil con guacamole",
-                    "cena": "Ensalada de atún con pepino"
+                    "desayuno": "Batido de plátano con avena y crema de cacahuate",
+                    "comida": "Res al cacahuate",
+                    "cena": "Ensalada de atún/ tostadas/ garbanzos/ aguacate "
                 },
                 "viernes": {
-                    "desayuno": "Chilaquiles con salsa roja",
-                    "comida": "Bistec en salsa verde con arroz",
-                    "cena": "Ensalada de quinoa con pollo"
-                },
-                "sabado": {
-                    "desayuno": "Batido de avena y cacahuate",
-                    "comida": "Tacos de suadero con nopales",
+                    "desayuno": "Huevos revueltos con complemento y fruta",
+                    "comida": "Ensalada de pollo a la mostaza/arroz",
                     "cena": "Sopa de lentejas"
                 },
+                "sabado": {
+                    "desayuno": "Chilaquiles con huevo estrellado",
+                    "comida": "Cerdo en adobo con arroz / tortillas",
+                    "cena": "Ensalada de quinoa con pollo y pan tostado"
+                },
                 "domingo": {
-                    "desayuno": "Tostadas de aguacate con naranja",
-                    "comida": "Albóndigas en salsa roja",
-                    "cena": "Pechuga al chipotle"
+                    "desayuno": "Omelette de queso, panela y complemento",
+                    "comida": "Suadero",
+                    "cena": "Pollo al chipotle con espinacas"
                 }
             },
             "semana_4": {
                 "lunes": {
-                    "desayuno": "Tostadas de aguacate con huevo",
-                    "comida": "Salmón al horno",
-                    "cena": "Ensalada de atún con garbanzos"
+                    "desayuno": "Huevos estrellados con tostadas de aguacate",
+                    "comida": "Guisado de bistec con papas/ pepino, jitomate",
+                    "cena": "Quesadillas con panela y frijoles"
                 },
                 "martes": {
-                    "desayuno": "Avena cocida con leche",
-                    "comida": "Bistec a la plancha con lentejas",
-                    "cena": "Yogur griego con frutos rojos"
+                    "desayuno": "Avena con chía, leche y fruta",
+                    "comida": "Tinga de res con col y tostadas",
+                    "cena": "Yogurt con fruta"
                 },
                 "miercoles": {
-                    "desayuno": "Omelette de espinaca y panela",
-                    "comida": "Pollo empanizado con frijoles",
-                    "cena": "Tostadas de ceviche de atún"
+                    "desayuno": "Hotcakes de avena con plátano y un vaso de leche",
+                    "comida": "Tilapia empanizada /puré de camote",
+                    "cena": "Omelette de queso panela con complemento y tostadas de aguacate"
                 },
                 "jueves": {
-                    "desayuno": "Claras con champiñones",
-                    "comida": "Enchiladas verdes",
-                    "cena": "Atún con aguacate y pepino"
+                    "desayuno": "Batido de plátano con avena y crema de cacahuate",
+                    "comida": "Bistec en salsa verde/arroz",
+                    "cena": "Ensalada de atún/ tostadas/ garbanzos/ aguacate "
                 },
                 "viernes": {
-                    "desayuno": "Avena con chía y manzana",
-                    "comida": "Carne de res asada con aguacate",
-                    "cena": "Sopa de garbanzos"
+                    "desayuno": "Huevos revueltos con complemento y fruta",
+                    "comida": "Pollo empanizado con frijoles y lechuga mixta",
+                    "cena": "Sopa de lentejas"
                 },
                 "sabado": {
-                    "desayuno": "Hotcakes de avena",
-                    "comida": "Carne de cerdo en adobo",
-                    "cena": "Quesadillas con champiñones"
+                    "desayuno": "Chilaquiles con huevo estrellado",
+                    "comida": "Enchiladas de pollo",
+                    "cena": "Ensalada de quinoa con pollo y pan tostado"
                 },
                 "domingo": {
-                    "desayuno": "Huevos con espinaca y manzana",
-                    "comida": "Bistec en salsa roja",
-                    "cena": "Ensalada de pollo deshebrado"
+                    "desayuno": "Omelette de queso, panela y complemento",
+                    "comida": "Carne molida con quinoa y brócoli",
+                    "cena": "Pollo al chipotle con espinacas"
                 }
             }
         },
